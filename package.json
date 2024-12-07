@@ -1,0 +1,12 @@
+{
+  "name": "pern-todo",
+  "version": "1.0.0",
+  "description": "- **Creation Date, Update Date**: Date and Time format.\r - **Username**: Up to 100 characters.\r - **Email Address**: Up to 255 characters.\r - **Password**: Must use at least two of the following: English letters, numbers, or ASCII symbols; minimum of 8 characters.\r - **User Data**: Supports approximately 1,000 entries per user.",
+  "main": "index.js",
+  "scripts": {
+    "build": "if-env TYPE=server && (cd server && npm install) || (cd client && npm install)",
+    "start": "if-env TYPE=server && (cd server/dist && npm run dev) || (cd client && npm start)"
+  },
+  "author": "",
+  "license": "ISC"
+}
